@@ -1,0 +1,21 @@
+.tabela{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    border-spacing: 0; 
+}
+.tabela tr:nth-child(1){
+    vertical-align: top;
+    background-color: rgba(89, 71, 255, 0.103);
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;     
+}
+.tabela td{
+    text-align: center;
+    
+}
+.tabela tr td{
+    padding: 5px;
+}
