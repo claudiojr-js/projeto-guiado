@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
     <title>Projeto Guiado</title>
 </head>
 <body>
@@ -15,7 +16,30 @@
         <a href="./index.html">
             Listagem
         </a>
-       
-</div>
+       </div>
+       <section>
+           <form class="formulario">
+            <div>
+               <label class="label-grande" for="nome"> Nome:</label>
+               <input name="nome" id="nome" required type="text">
+            </div>
+
+            <div class="linha-formulario">
+               <label class="label-grande" for="telefone"> Telefone:</label>
+               <input name="telefone" id="telefone" required type="tel">
+            </div>
+
+            <div class="linha-formulario xp-line" style="display: flex;">
+               <label class="label-grande">Experiência Prévia:</label>
+               <div>
+                <input type="radio" name="xp-sim" id="xp-sim"><label for="xp-sim">Sim</label><br>
+                <input type="radio" name="xp-nao" id="xp-nao"><label for="xp-nao">Não</label>
+               </div>
+            </div>
+
+            <input type="submit" value="Salvar" /> 
+       </section>
+
+
 </body>
 </html>

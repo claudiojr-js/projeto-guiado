@@ -13,7 +13,7 @@ body{
 .menu{
     display: flex;
     justify-content: center;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 .menu a{
     text-decoration: none;
